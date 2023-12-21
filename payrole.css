@@ -1,0 +1,243 @@
+.fullView {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    height: 1080px;
+    background: #f7f7f7 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .header {
+    flex-direction: row;
+    width: 100%;
+    height: 106px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  
+  .headerCol {
+    display: flex;
+    margin-top: 47px;
+    margin-left: 9.79%;
+  }
+
+  
+  
+  .headerCol1 {
+    padding-left: 0%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font: normal normal bold 20px Montserrat;
+    letter-spacing: 0px;
+    color: #82a70c;
+    text-transform: capitalize;
+  }
+  
+  .headerCol2 {
+    text-align: left;
+    font: normal normal bold 20px Montserrat;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+  }
+  
+  .formDetails {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    height: 911px;
+    margin: 27px auto 10px auto;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+  }
+  
+  .formCol1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 13.23%;
+    margin-top: 4.41%;
+    text-align: left;
+    font: normal normal bold 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  
+  .inner-cnt {
+    display: flex;
+    flex-direction: column;
+    width: 73.53%;
+    height: 50px;
+    margin-left: 13.23%;
+    margin-right: 4.44%;
+    opacity: 1;
+  }
+  .name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.26%;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+  }
+  
+  .nameText {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 82.85;
+    margin-left: 17.14%;
+    margin-right: 6.03%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    opacity: 1;
+  }
+  
+  .body-cnt {
+    width: 100%;
+    background: #f7f7f7 0% 0% no-repeat padding-box;
+  }
+  .form-outer-cnt {
+    display: flex;
+    width: 58%;
+    height: 911px;
+    margin: 27px auto 10px auto;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+  }
+  .form-inner-cnt {
+    display: flex;
+    flex-direction: column;
+    width: 73.53%;
+    margin: 42px auto;
+    opacity: 1;
+  }
+  .label-input-cnt{
+    padding-left: 0%;
+    width: 80%;
+    gap: 10%;
+    margin-top: 40px;
+    display: flex;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+  }
+  .label-input-cnt1 {
+    padding-left: 0%;
+    margin-left: 3%;
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+    text-align: left;
+    font: normal normal bold 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .form-label {
+    margin-left: 5%;
+    width: 17%;
+    flex-direction: column;
+  }
+  .name-input1{
+    display: flex;
+    margin-left: 8%;
+    width: 90%;
+    height: 20px;
+  }
+  
+  .image-input-p1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gender-input {
+    padding-left: 0%;
+    gap: 0%;
+    border: 0px;
+    margin-left: 5%;
+    margin-right: 0px;
+  }
+  .dept-input{
+    padding-left: 0%;
+    gap: 10%;
+    width: 10%;
+    margin-left: 5%;
+    display: flex;
+  }
+  .salary-input{
+    padding-left: 0%;
+    margin-left: 5%;
+  }
+  .date-input{
+    margin-left: 5%;
+  }
+  .startdate{
+    height: 30px;
+  }
+  .startmonth{
+    height: 30px;
+  }
+  .startyear{
+    height: 30px;
+  }
+  .image-input{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    gap: 5%;
+  }
+  .note-input{
+    width: 110%;
+    height: 100px;
+    display: flex;
+    margin-left: 12%;
+  }
+  .option-input,.submit-btn,.reset-btn{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font: normal normal normal 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+ }
+.form-btn{
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.rightside-options{
+  display: flex;
+  margin-right: 0%;
+  gap: 10%;
+}
+ /* .other-options{
+  display: flex;
+  gap: 10%;
+  justify-content: space-between;
+  margin-left: 150%;
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  font: normal normal normal 20px/26px Roboto;
+  letter-spacing: 0px;
+  color: #42515F;
+  opacity: 1;
+ } */
