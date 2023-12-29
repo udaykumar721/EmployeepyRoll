@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Payroll Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <div class="header-cnt">
+        <div class="space-cnt">
+        <div class="logo"><img src="/assets/logo.png" alt="profileAvatar" width="50px" height="48px"></div>
+        <div class="headtitle">
+            <div class="title_up">Employee</div>
+            <div class="title_btm">Payroll</div>
+        </div>
+        </div>
+    </div>
+    <div class="outter-ctn">
+        <div class="outter-head-cnt">
+        <div class="inner-head-cnt">
+            <label>Employee Details</label>
+            <div class="tablehead-btn">
+                <input type="button" class="searchbtn">
+                <button id="add-user" class="addbtn">+ Add User</button>
+                <!-- <input type="button" id="add-user" value="🞣  Add User" class="addbtn"> -->
+            </div>
+        </div>
+        <div class="table-ctn">
+            <table>
+                <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start Date</th>
+                <th>Actions</th>
+                </tr>
+                <tr>
+                    <td><div class="profileImg-cnt"><img src="/assets/profile1.png" alt="profileimg">AmarpaShashankaKeerthiKumar</div></td>
+                    <td>Female</td>
+                    <td><div class="dept-outter-cnt"><div class="dept-ctn">Sales</div><div class="dept-ctn">HR</div><div class="dept-ctn">Finance</div></div></td>
+                    <td>₹10,000</td>
+                    <td>29Oct2019</td>
+                    <td><div class="action-btn"><img src="/assets/bin.png" alt="delete" width="20px" height="24px"> <img src="/assets/edit.png" alt="edit" width="20px" height="20px"></div></td>
+                </tr>
+                <tr>
+                    <td><div class="profileImg-cnt"><img src="/assets/profile3.png" alt="profilrimg">MohammadSalmanIqbalShaik</div></td>
+                    <td>Female</td>
+                    <td><div class="dept-outter-cnt"><div class="dept-ctn">Sales</div><div class="dept-ctn">HR</div><div class="dept-ctn">Finance</div></div></td>
+                    <td>₹10,000</td>
+                    <td>29Oct2019</td>
+                    <td><div class="action-btn"><img src="/assets/bin.png" alt="delete" width="20px" height="24px"><img src="/assets/edit.png" alt="edit" width="20px" height="20px"></div></td>
+                </tr>
+            </table>
+        </div>
+      </div>
+    </div>
+<script type="module" src="../js/dashboard.js"></script>
+</body>
+</html>
